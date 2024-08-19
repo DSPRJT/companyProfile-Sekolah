@@ -1,0 +1,247 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+form {
+    margin: 10px 15px;
+}
+
+.textCenter {
+    text-align: center;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bgLight {
+    background-color: #fff;
+}
+
+.clearFix {
+    clear: both;
+}
+.halamanLogin {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #FEFAE0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.boxLogin {
+    width: 300px;
+}
+
+.boxHeader {
+    padding: 16px;
+    background-color: #606C38;
+    color: #FEFAE0;
+    margin-bottom: 1vh;
+
+}
+
+.boxBody {
+    padding: 16px;
+
+}
+
+.boxFooter {
+    padding: 16px;
+    background-color: #606C38;
+    margin-top: 1vh;
+}
+
+.kolomInput {
+    margin-bottom: 25px;
+}
+
+.kolomInput label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.kolomInput .kolomText {
+    padding: 10px 17px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    border: 1px solid #ddd;
+    padding: 10px 16px;
+    color: #FEFAE0;
+}
+
+.btnLogin {
+    background-color: #678b3c;
+}
+.btnLogin:hover {
+    background-color: #1E2912;
+    color: white;
+}
+
+.btnMenuutama {
+    text-decoration: none;
+    color: #FEFAE0;
+    border: 2px solid #BC6C25;
+    border-radius: 2px;
+    padding: 10px 16px ;
+
+}
+
+.btnMenuutama:hover {
+    background-color: #BC6C25;
+}
+
+.btnKembali {
+    background-color: #DDA15E;
+    
+}
+
+.btnKembali:hover {
+    background-color: #BC6C25;
+}
+.alert {
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.alertError {
+    border: 1px solid #f44336;
+    background-color: #ffcdd2;
+    color: #b71c1c;
+}
+
+.alertSucces {
+    border: 1px solid #116530;
+    background-color: #A3EBB1;
+    color: #18A558;
+}
+.navbar {
+
+    height: 60px;
+    width: 100%;
+    background-color: #606C38;
+    position: fixed;
+}
+.navBrand {
+    display: inline-block;
+    padding: 15px 0;
+    margin-right: 5rem;
+    float: left;
+    top: 0;
+    z-index: 1;
+}
+.navbar a {
+    color: #FEFAE0;
+}
+
+.navMenu li:hover{
+    background-color: #283618;
+}
+
+.navMenu {
+    display: flex;
+    float: left;
+}
+
+.navMenu li a {
+    padding: 20px;
+    display: inline-block;
+}
+
+.navMenu li .dropDown {
+    border-bottom: 1px solid black;
+    background-color: #606C38;
+    position: absolute;
+    display: none;
+}
+
+
+.navMenu li:hover .dropDown {
+    display: block;
+
+}
+
+.dropDown li a {
+    border-bottom: 1px solid black;
+} 
+
+.content {
+    padding: 80px 0px 30px 0px;
+}
+
+.footer {
+    padding: 20px 0px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0px;
+}
+
+.table th,.table td {
+    border: 1px solid #606C38;
+    padding: 12px;
+}
+.table th {
+    color: #FEFAE0;
+    background-color: #606C38;
+}
+.table td:first-child {
+    width: 50px;
+    text-align: center;
+}
+.table td:last-child {
+    width: 150px;
+    text-align: center;
+}
+
+
+
+.inputGrup::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.inputGrup input[type="text"] {
+    margin-top: 1rem;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.inputGrup input[type="text"]:focus {
+    outline: none;
+}
+
+.inputGrup button{
+    width: 10%;
+    padding: 10px;
+    margin-top: 1rem;
+    font-size: 16px;
+    float: left;
+    border: 1px solid #ddd;
+    border-left: none;
+}
+
